@@ -1,11 +1,6 @@
 import React from "react";
 import "./button.css";
 
-// TODO:
-// [x] Disabled state
-// [ ] Error state
-// [ ] Controlled pin state
-
 interface ButtonProps {
   /**
    * Is this the principal call to action on the page?

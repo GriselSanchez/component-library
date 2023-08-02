@@ -36,10 +36,6 @@ interface Props {
    * If true, the icon will be hidden
    */
   hideIcon?: boolean;
-  /**
-   * If true, the component will be disabled
-   */
-  // isDisabled?: boolean
 }
 
 /**

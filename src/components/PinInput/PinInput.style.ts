@@ -14,7 +14,7 @@ export const StyledPinInput = styled.input<StyledPinInputProps>`
   width: 60px;
   text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   -webkit-text-security: ${(props) => (props.$isVisible ? "none" : "disc")};
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 
@@ -24,7 +24,7 @@ export const StyledPinInput = styled.input<StyledPinInputProps>`
   border: 1px solid #e2e8f0;
   outline: transparent solid 2px;
   outline-offset: 2px;
-  caret-color: #e2e8f0;
+  caret-color: #6c7d93;
 
   ::-webkit-outer-spin-button,
   ::-webkit-inner-spin-button {
@@ -37,8 +37,14 @@ export const StyledPinInput = styled.input<StyledPinInputProps>`
     -moz-appearance: textfield;
   }
 
-  :focus {
-    outline: none;
+  &:hover {
+    border: 1px solid #b4bbc4;
+  }
+
+  &:focus-visible {
+    outline: 1px solid #9495ff;
+    outline-offset: 0;
+    border: 1px solid #9495ff;
   }
 `;
 
