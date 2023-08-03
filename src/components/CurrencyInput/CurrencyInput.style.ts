@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
-// TODO: move to global styles
-export const PRIMARY_COLOR = "#9495FF";
+export const Container = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2rem;
+`;
 
-export const StyledInput = styled.input`
+export const StyledMoneyInput = styled.input<{ $error?: boolean }>`
   border-radius: 0.5rem;
   border: 1px solid #e2e8f0;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -16,12 +21,6 @@ export const StyledInput = styled.input`
   padding: 0.15rem 1rem;
   width: 350px;
 
-  ::-webkit-outer-spin-button,
-  ::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-
   &:hover {
     border: 1px solid #b4bbc4;
   }
@@ -31,4 +30,10 @@ export const StyledInput = styled.input`
     outline-offset: 0;
     border: 1px solid #9495ff;
   }
+`;
+
+export const ErrorText = styled.p`
+  font-size: 0.8rem;
+  color: #ea333d;
+  margin: 0;
 `;

@@ -4,4 +4,5 @@ export enum KeyCode {
   COMMA = "Comma",
   BACKSPACE = "Backspace",
   TAB = "Tab",
+  NUMPAD_DECIMAL = "NumpadDecimal",
 }

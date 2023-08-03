@@ -9,7 +9,7 @@ import { PinInput } from "../components/PinInput/PinInput";
 // [ ] Controlled pin state
 
 const meta = {
-  title: "Example/PinInput",
+  title: "Design System/Input/Pin",
   component: PinInput,
   parameters: {
     layout: "centered",

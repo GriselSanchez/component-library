@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { EyeInvisibleOutlined, EyeOutlined } from "@ant-design/icons";
 
-import { KeyCode } from "./KeyCode.enum";
+import { KeyCode } from "../../types/KeyCode.enum";
 import {
   PRIMARY_COLOR,
   StyledContainer,
