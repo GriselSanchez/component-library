@@ -5,7 +5,7 @@ export const PRIMARY_COLOR = "#9495FF";
 
 export const StyledInput = styled.input`
   border-radius: 0.5rem;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #c5cbd3;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   caret-color: #6c7d93;
   color: #6c7d93;
@@ -27,7 +27,6 @@ export const StyledInput = styled.input`
   }
 
   &:focus-visible {
-    outline: 1px solid #9495ff;
     outline-offset: 0;
     border: 1px solid #9495ff;
   }

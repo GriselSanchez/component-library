@@ -17,11 +17,11 @@ export const StyledPinInput = styled.input<StyledPinInputProps>`
   font-size: 1rem;
   -webkit-text-security: ${(props) => (props.$isVisible ? "none" : "disc")};
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-
+  padding: 0;
   background: ${(props) => (props.$hasValue ? props.$color : "white")};
   color: white;
   border-radius: 0.5rem;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #c5cbd3;
   outline: transparent solid 2px;
   outline-offset: 2px;
   caret-color: #6c7d93;
@@ -42,7 +42,6 @@ export const StyledPinInput = styled.input<StyledPinInputProps>`
   }
 
   &:focus-visible {
-    outline: 1px solid #9495ff;
     outline-offset: 0;
     border: 1px solid #9495ff;
   }
